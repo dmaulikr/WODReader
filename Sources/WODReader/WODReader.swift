@@ -14,11 +14,22 @@ public class WODReader {
     
     let feeds: [Feed]
     
+    internal var service: FeedService!
+    
     // MARK: Init
     
-    public init(feeds: [Feed]) {
+    public convenience init(feeds: [Feed]) {
+        self.init(feeds: feeds, serviceProvider: DefaultFeedServiceProvider())
+    }
+    
+    internal init(feeds: [Feed], serviceProvider: FeedServiceProvider) {
         self.feeds = feeds
+        
+        initialize(from: serviceProvider)
         prepareFeeds(feeds)
+    }
+    
+    private func initialize(from serviceProvider: FeedServiceProvider) {
     }
     
     // MARK: Feed Management
