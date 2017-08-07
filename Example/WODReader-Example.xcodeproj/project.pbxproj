@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60BF7F21F38B9AA007A4770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF7F11F38B9AA007A4770 /* AppDelegate.swift */; };
+		D60BF7F41F38B9AA007A4770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF7F31F38B9AA007A4770 /* ViewController.swift */; };
+		D60BF7F71F38B9AA007A4770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60BF7F51F38B9AA007A4770 /* Main.storyboard */; };
+		D60BF7F91F38B9AA007A4770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60BF7F81F38B9AA007A4770 /* Assets.xcassets */; };
+		D60BF7FC1F38B9AA007A4770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60BF7FA1F38B9AA007A4770 /* LaunchScreen.storyboard */; };
+		D60BF8041F38B9CE007A4770 /* WODReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60BF8031F38B9CE007A4770 /* WODReader.framework */; };
+		D60BF8051F38B9CE007A4770 /* WODReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D60BF8031F38B9CE007A4770 /* WODReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D60BF8061F38B9CE007A4770 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D60BF8051F38B9CE007A4770 /* WODReader.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D60BF7EE1F38B9AA007A4770 /* WODReader-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WODReader-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60BF7F11F38B9AA007A4770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D60BF7F31F38B9AA007A4770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D60BF7F61F38B9AA007A4770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60BF7F81F38B9AA007A4770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D60BF7FB1F38B9AA007A4770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D60BF7FD1F38B9AA007A4770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60BF8031F38B9CE007A4770 /* WODReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WODReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60BF7EB1F38B9AA007A4770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60BF8041F38B9CE007A4770 /* WODReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60BF7E51F38B9AA007A4770 = {
+			isa = PBXGroup;
+			children = (
+				D60BF7F01F38B9AA007A4770 /* WODReader-Example */,
+				D60BF8071F38B9D4007A4770 /* Frameworks */,
+				D60BF7EF1F38B9AA007A4770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D60BF7EF1F38B9AA007A4770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60BF7EE1F38B9AA007A4770 /* WODReader-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60BF7F01F38B9AA007A4770 /* WODReader-Example */ = {
+			isa = PBXGroup;
+			children = (
+				D60BF7F11F38B9AA007A4770 /* AppDelegate.swift */,
+				D60BF7F31F38B9AA007A4770 /* ViewController.swift */,
+				D60BF7F51F38B9AA007A4770 /* Main.storyboard */,
+				D60BF7F81F38B9AA007A4770 /* Assets.xcassets */,
+				D60BF7FA1F38B9AA007A4770 /* LaunchScreen.storyboard */,
+				D60BF7FD1F38B9AA007A4770 /* Info.plist */,
+			);
+			path = "WODReader-Example";
+			sourceTree = "<group>";
+		};
+		D60BF8071F38B9D4007A4770 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60BF8031F38B9CE007A4770 /* WODReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60BF7ED1F38B9AA007A4770 /* WODReader-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60BF8001F38B9AA007A4770 /* Build configuration list for PBXNativeTarget "WODReader-Example" */;
+			buildPhases = (
+				D60BF7EA1F38B9AA007A4770 /* Sources */,
+				D60BF7EB1F38B9AA007A4770 /* Frameworks */,
+				D60BF7EC1F38B9AA007A4770 /* Resources */,
+				D60BF8061F38B9CE007A4770 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WODReader-Example";
+			productName = "WODReader-Example";
+			productReference = D60BF7EE1F38B9AA007A4770 /* WODReader-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60BF7E61F38B9AA007A4770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "AMRAP Labs";
+				TargetAttributes = {
+					D60BF7ED1F38B9AA007A4770 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D60BF7E91F38B9AA007A4770 /* Build configuration list for PBXProject "WODReader-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60BF7E51F38B9AA007A4770;
+			productRefGroup = D60BF7EF1F38B9AA007A4770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60BF7ED1F38B9AA007A4770 /* WODReader-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60BF7EC1F38B9AA007A4770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60BF7FC1F38B9AA007A4770 /* LaunchScreen.storyboard in Resources */,
+				D60BF7F91F38B9AA007A4770 /* Assets.xcassets in Resources */,
+				D60BF7F71F38B9AA007A4770 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60BF7EA1F38B9AA007A4770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60BF7F41F38B9AA007A4770 /* ViewController.swift in Sources */,
+				D60BF7F21F38B9AA007A4770 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D60BF7F51F38B9AA007A4770 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60BF7F61F38B9AA007A4770 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D60BF7FA1F38B9AA007A4770 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60BF7FB1F38B9AA007A4770 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60BF7FE1F38B9AA007A4770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D60BF7FF1F38B9AA007A4770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60BF8011F38B9AA007A4770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WODReader-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReader-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D60BF8021F38B9AA007A4770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WODReader-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReader-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60BF7E91F38B9AA007A4770 /* Build configuration list for PBXProject "WODReader-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60BF7FE1F38B9AA007A4770 /* Debug */,
+				D60BF7FF1F38B9AA007A4770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60BF8001F38B9AA007A4770 /* Build configuration list for PBXNativeTarget "WODReader-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60BF8011F38B9AA007A4770 /* Debug */,
+				D60BF8021F38B9AA007A4770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D60BF7E61F38B9AA007A4770 /* Project object */;
+}
