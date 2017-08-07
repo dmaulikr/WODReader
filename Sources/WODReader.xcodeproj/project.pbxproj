@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60BF8091F38BF13007A4770 /* Feed+Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF8081F38BF13007A4770 /* Feed+Item.swift */; };
 		D65EB7981F38B19E00022A47 /* WODReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EB78E1F38B19E00022A47 /* WODReader.framework */; };
 		D65EB79D1F38B19E00022A47 /* WODReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB79C1F38B19E00022A47 /* WODReaderTests.swift */; };
 		D65EB79F1F38B19E00022A47 /* WODReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D65EB7911F38B19E00022A47 /* WODReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D60BF8081F38BF13007A4770 /* Feed+Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feed+Item.swift"; sourceTree = "<group>"; };
 		D65EB78E1F38B19E00022A47 /* WODReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WODReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65EB7911F38B19E00022A47 /* WODReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WODReader.h; sourceTree = "<group>"; };
 		D65EB7921F38B19E00022A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				D65EB7AC1F38B26C00022A47 /* Feed.swift */,
+				D60BF8081F38BF13007A4770 /* Feed+Item.swift */,
 			);
 			name = Model;
 			path = Models;
@@ -222,6 +225,7 @@
 			files = (
 				D65EB7A91F38B1D900022A47 /* WODReader.swift in Sources */,
 				D65EB7AD1F38B26C00022A47 /* Feed.swift in Sources */,
+				D60BF8091F38BF13007A4770 /* Feed+Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

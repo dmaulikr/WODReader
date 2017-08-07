@@ -19,6 +19,8 @@ public class Feed {
     
     public let url: URL
     
+    private(set) var items: [Item]?
+    
     internal weak var responder: FeedResponder?
     
     // MARK: Init
