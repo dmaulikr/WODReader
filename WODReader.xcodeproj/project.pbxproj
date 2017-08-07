@@ -7,182 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D65EB7741F38AFDB00022A47 /* WODFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EB76A1F38AFDB00022A47 /* WODFeed.framework */; };
-		D65EB7791F38AFDB00022A47 /* WODFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB7781F38AFDB00022A47 /* WODFeedTests.swift */; };
-		D65EB77B1F38AFDB00022A47 /* WODFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = D65EB76D1F38AFDB00022A47 /* WODFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65EB7981F38B19E00022A47 /* WODReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EB78E1F38B19E00022A47 /* WODReader.framework */; };
+		D65EB79D1F38B19E00022A47 /* WODReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB79C1F38B19E00022A47 /* WODReaderTests.swift */; };
+		D65EB79F1F38B19E00022A47 /* WODReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D65EB7911F38B19E00022A47 /* WODReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D65EB7751F38AFDB00022A47 /* PBXContainerItemProxy */ = {
+		D65EB7991F38B19E00022A47 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D65EB7611F38AFDB00022A47 /* Project object */;
+			containerPortal = D65EB7851F38B19E00022A47 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D65EB7691F38AFDB00022A47;
-			remoteInfo = WODFeed;
+			remoteGlobalIDString = D65EB78D1F38B19E00022A47;
+			remoteInfo = WODReader;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D65EB76A1F38AFDB00022A47 /* WODFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WODFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D65EB76D1F38AFDB00022A47 /* WODFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WODFeed.h; sourceTree = "<group>"; };
-		D65EB76E1F38AFDB00022A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D65EB7731F38AFDB00022A47 /* WODFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WODFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D65EB7781F38AFDB00022A47 /* WODFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODFeedTests.swift; sourceTree = "<group>"; };
-		D65EB77A1F38AFDB00022A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65EB78E1F38B19E00022A47 /* WODReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WODReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65EB7911F38B19E00022A47 /* WODReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WODReader.h; sourceTree = "<group>"; };
+		D65EB7921F38B19E00022A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65EB7971F38B19E00022A47 /* WODReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WODReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65EB79C1F38B19E00022A47 /* WODReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODReaderTests.swift; sourceTree = "<group>"; };
+		D65EB79E1F38B19E00022A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D65EB7661F38AFDB00022A47 /* Frameworks */ = {
+		D65EB78A1F38B19E00022A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D65EB7701F38AFDB00022A47 /* Frameworks */ = {
+		D65EB7941F38B19E00022A47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65EB7741F38AFDB00022A47 /* WODFeed.framework in Frameworks */,
+				D65EB7981F38B19E00022A47 /* WODReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D65EB7601F38AFDB00022A47 = {
+		D65EB7841F38B19E00022A47 = {
 			isa = PBXGroup;
 			children = (
-				D65EB76C1F38AFDB00022A47 /* WODFeed */,
-				D65EB7771F38AFDB00022A47 /* WODFeedTests */,
-				D65EB76B1F38AFDB00022A47 /* Products */,
+				D65EB7901F38B19E00022A47 /* WODReader */,
+				D65EB79B1F38B19E00022A47 /* WODReaderTests */,
+				D65EB78F1F38B19E00022A47 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D65EB76B1F38AFDB00022A47 /* Products */ = {
+		D65EB78F1F38B19E00022A47 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D65EB76A1F38AFDB00022A47 /* WODFeed.framework */,
-				D65EB7731F38AFDB00022A47 /* WODFeedTests.xctest */,
+				D65EB78E1F38B19E00022A47 /* WODReader.framework */,
+				D65EB7971F38B19E00022A47 /* WODReaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D65EB76C1F38AFDB00022A47 /* WODFeed */ = {
+		D65EB7901F38B19E00022A47 /* WODReader */ = {
 			isa = PBXGroup;
 			children = (
-				D65EB76D1F38AFDB00022A47 /* WODFeed.h */,
-				D65EB76E1F38AFDB00022A47 /* Info.plist */,
+				D65EB7911F38B19E00022A47 /* WODReader.h */,
+				D65EB7921F38B19E00022A47 /* Info.plist */,
 			);
-			path = WODFeed;
+			path = WODReader;
 			sourceTree = "<group>";
 		};
-		D65EB7771F38AFDB00022A47 /* WODFeedTests */ = {
+		D65EB79B1F38B19E00022A47 /* WODReaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				D65EB7781F38AFDB00022A47 /* WODFeedTests.swift */,
-				D65EB77A1F38AFDB00022A47 /* Info.plist */,
+				D65EB79C1F38B19E00022A47 /* WODReaderTests.swift */,
+				D65EB79E1F38B19E00022A47 /* Info.plist */,
 			);
-			path = WODFeedTests;
+			path = WODReaderTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D65EB7671F38AFDB00022A47 /* Headers */ = {
+		D65EB78B1F38B19E00022A47 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65EB77B1F38AFDB00022A47 /* WODFeed.h in Headers */,
+				D65EB79F1F38B19E00022A47 /* WODReader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D65EB7691F38AFDB00022A47 /* WODFeed */ = {
+		D65EB78D1F38B19E00022A47 /* WODReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D65EB77E1F38AFDB00022A47 /* Build configuration list for PBXNativeTarget "WODFeed" */;
+			buildConfigurationList = D65EB7A21F38B19E00022A47 /* Build configuration list for PBXNativeTarget "WODReader" */;
 			buildPhases = (
-				D65EB7651F38AFDB00022A47 /* Sources */,
-				D65EB7661F38AFDB00022A47 /* Frameworks */,
-				D65EB7671F38AFDB00022A47 /* Headers */,
-				D65EB7681F38AFDB00022A47 /* Resources */,
+				D65EB7891F38B19E00022A47 /* Sources */,
+				D65EB78A1F38B19E00022A47 /* Frameworks */,
+				D65EB78B1F38B19E00022A47 /* Headers */,
+				D65EB78C1F38B19E00022A47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WODFeed;
-			productName = WODFeed;
-			productReference = D65EB76A1F38AFDB00022A47 /* WODFeed.framework */;
+			name = WODReader;
+			productName = WODReader;
+			productReference = D65EB78E1F38B19E00022A47 /* WODReader.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D65EB7721F38AFDB00022A47 /* WODFeedTests */ = {
+		D65EB7961F38B19E00022A47 /* WODReaderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D65EB7811F38AFDB00022A47 /* Build configuration list for PBXNativeTarget "WODFeedTests" */;
+			buildConfigurationList = D65EB7A51F38B19E00022A47 /* Build configuration list for PBXNativeTarget "WODReaderTests" */;
 			buildPhases = (
-				D65EB76F1F38AFDB00022A47 /* Sources */,
-				D65EB7701F38AFDB00022A47 /* Frameworks */,
-				D65EB7711F38AFDB00022A47 /* Resources */,
+				D65EB7931F38B19E00022A47 /* Sources */,
+				D65EB7941F38B19E00022A47 /* Frameworks */,
+				D65EB7951F38B19E00022A47 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D65EB7761F38AFDB00022A47 /* PBXTargetDependency */,
+				D65EB79A1F38B19E00022A47 /* PBXTargetDependency */,
 			);
-			name = WODFeedTests;
-			productName = WODFeedTests;
-			productReference = D65EB7731F38AFDB00022A47 /* WODFeedTests.xctest */;
+			name = WODReaderTests;
+			productName = WODReaderTests;
+			productReference = D65EB7971F38B19E00022A47 /* WODReaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D65EB7611F38AFDB00022A47 /* Project object */ = {
+		D65EB7851F38B19E00022A47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "AMRAP Labs";
 				TargetAttributes = {
-					D65EB7691F38AFDB00022A47 = {
+					D65EB78D1F38B19E00022A47 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
-					D65EB7721F38AFDB00022A47 = {
+					D65EB7961F38B19E00022A47 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D65EB7641F38AFDB00022A47 /* Build configuration list for PBXProject "WODFeed" */;
+			buildConfigurationList = D65EB7881F38B19E00022A47 /* Build configuration list for PBXProject "WODReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D65EB7601F38AFDB00022A47;
-			productRefGroup = D65EB76B1F38AFDB00022A47 /* Products */;
+			mainGroup = D65EB7841F38B19E00022A47;
+			productRefGroup = D65EB78F1F38B19E00022A47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D65EB7691F38AFDB00022A47 /* WODFeed */,
-				D65EB7721F38AFDB00022A47 /* WODFeedTests */,
+				D65EB78D1F38B19E00022A47 /* WODReader */,
+				D65EB7961F38B19E00022A47 /* WODReaderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D65EB7681F38AFDB00022A47 /* Resources */ = {
+		D65EB78C1F38B19E00022A47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D65EB7711F38AFDB00022A47 /* Resources */ = {
+		D65EB7951F38B19E00022A47 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,33 +192,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D65EB7651F38AFDB00022A47 /* Sources */ = {
+		D65EB7891F38B19E00022A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D65EB76F1F38AFDB00022A47 /* Sources */ = {
+		D65EB7931F38B19E00022A47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65EB7791F38AFDB00022A47 /* WODFeedTests.swift in Sources */,
+				D65EB79D1F38B19E00022A47 /* WODReaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D65EB7761F38AFDB00022A47 /* PBXTargetDependency */ = {
+		D65EB79A1F38B19E00022A47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D65EB7691F38AFDB00022A47 /* WODFeed */;
-			targetProxy = D65EB7751F38AFDB00022A47 /* PBXContainerItemProxy */;
+			target = D65EB78D1F38B19E00022A47 /* WODReader */;
+			targetProxy = D65EB7991F38B19E00022A47 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D65EB77C1F38AFDB00022A47 /* Debug */ = {
+		D65EB7A01F38B19E00022A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +272,7 @@
 			};
 			name = Debug;
 		};
-		D65EB77D1F38AFDB00022A47 /* Release */ = {
+		D65EB7A11F38B19E00022A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,7 +319,7 @@
 			};
 			name = Release;
 		};
-		D65EB77F1F38AFDB00022A47 /* Debug */ = {
+		D65EB7A31F38B19E00022A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -327,17 +327,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WODFeed/Info.plist;
+				INFOPLIST_FILE = WODReader/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODFeed";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		D65EB7801F38AFDB00022A47 /* Release */ = {
+		D65EB7A41F38B19E00022A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -345,33 +345,33 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WODFeed/Info.plist;
+				INFOPLIST_FILE = WODReader/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODFeed";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		D65EB7821F38AFDB00022A47 /* Debug */ = {
+		D65EB7A61F38B19E00022A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = WODFeedTests/Info.plist;
+				INFOPLIST_FILE = WODReaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODFeedTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReaderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		D65EB7831F38AFDB00022A47 /* Release */ = {
+		D65EB7A71F38B19E00022A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = WODFeedTests/Info.plist;
+				INFOPLIST_FILE = WODReaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODFeedTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReaderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -380,32 +380,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D65EB7641F38AFDB00022A47 /* Build configuration list for PBXProject "WODFeed" */ = {
+		D65EB7881F38B19E00022A47 /* Build configuration list for PBXProject "WODReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D65EB77C1F38AFDB00022A47 /* Debug */,
-				D65EB77D1F38AFDB00022A47 /* Release */,
+				D65EB7A01F38B19E00022A47 /* Debug */,
+				D65EB7A11F38B19E00022A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D65EB77E1F38AFDB00022A47 /* Build configuration list for PBXNativeTarget "WODFeed" */ = {
+		D65EB7A21F38B19E00022A47 /* Build configuration list for PBXNativeTarget "WODReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D65EB77F1F38AFDB00022A47 /* Debug */,
-				D65EB7801F38AFDB00022A47 /* Release */,
+				D65EB7A31F38B19E00022A47 /* Debug */,
+				D65EB7A41F38B19E00022A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		D65EB7811F38AFDB00022A47 /* Build configuration list for PBXNativeTarget "WODFeedTests" */ = {
+		D65EB7A51F38B19E00022A47 /* Build configuration list for PBXNativeTarget "WODReaderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D65EB7821F38AFDB00022A47 /* Debug */,
-				D65EB7831F38AFDB00022A47 /* Release */,
+				D65EB7A61F38B19E00022A47 /* Debug */,
+				D65EB7A71F38B19E00022A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D65EB7611F38AFDB00022A47 /* Project object */;
+	rootObject = D65EB7851F38B19E00022A47 /* Project object */;
 }

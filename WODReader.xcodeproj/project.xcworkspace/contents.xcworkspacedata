@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WODFeed.xcodeproj">
+      location = "self:WODReader.xcodeproj">
    </FileRef>
 </Workspace>

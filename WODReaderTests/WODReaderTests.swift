@@ -1,15 +1,15 @@
 //
-//  WODFeedTests.swift
-//  WODFeedTests
+//  WODReaderTests.swift
+//  WODReaderTests
 //
 //  Created by Merrick Sapsford on 07/08/2017.
 //  Copyright © 2017 AMRAP Labs. All rights reserved.
 //
 
 import XCTest
-@testable import WODFeed
+@testable import WODReader
 
-class WODFeedTests: XCTestCase {
+class WODReaderTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
