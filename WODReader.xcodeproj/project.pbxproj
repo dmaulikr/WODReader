@@ -10,6 +10,8 @@
 		D65EB7981F38B19E00022A47 /* WODReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65EB78E1F38B19E00022A47 /* WODReader.framework */; };
 		D65EB79D1F38B19E00022A47 /* WODReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB79C1F38B19E00022A47 /* WODReaderTests.swift */; };
 		D65EB79F1F38B19E00022A47 /* WODReader.h in Headers */ = {isa = PBXBuildFile; fileRef = D65EB7911F38B19E00022A47 /* WODReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D65EB7A91F38B1D900022A47 /* WODReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB7A81F38B1D900022A47 /* WODReader.swift */; };
+		D65EB7AD1F38B26C00022A47 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EB7AC1F38B26C00022A47 /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		D65EB7971F38B19E00022A47 /* WODReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WODReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65EB79C1F38B19E00022A47 /* WODReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODReaderTests.swift; sourceTree = "<group>"; };
 		D65EB79E1F38B19E00022A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65EB7A81F38B1D900022A47 /* WODReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WODReader.swift; sourceTree = "<group>"; };
+		D65EB7AC1F38B26C00022A47 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				D65EB7911F38B19E00022A47 /* WODReader.h */,
-				D65EB7921F38B19E00022A47 /* Info.plist */,
+				D65EB7A81F38B1D900022A47 /* WODReader.swift */,
+				D65EB7AA1F38B24500022A47 /* Model */,
+				D65EB7AB1F38B24900022A47 /* Resource */,
 			);
 			path = WODReader;
 			sourceTree = "<group>";
@@ -84,6 +90,23 @@
 				D65EB79E1F38B19E00022A47 /* Info.plist */,
 			);
 			path = WODReaderTests;
+			sourceTree = "<group>";
+		};
+		D65EB7AA1F38B24500022A47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D65EB7AC1F38B26C00022A47 /* Feed.swift */,
+			);
+			name = Model;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D65EB7AB1F38B24900022A47 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D65EB7921F38B19E00022A47 /* Info.plist */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +171,7 @@
 				TargetAttributes = {
 					D65EB78D1F38B19E00022A47 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					D65EB7961F38B19E00022A47 = {
@@ -196,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65EB7A91F38B1D900022A47 /* WODReader.swift in Sources */,
+				D65EB7AD1F38B26C00022A47 /* Feed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +348,7 @@
 		D65EB7A31F38B19E00022A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -333,6 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +368,7 @@
 		D65EB7A41F38B19E00022A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -358,6 +387,7 @@
 		D65EB7A61F38B19E00022A47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WODReaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReaderTests";
@@ -369,6 +399,7 @@
 		D65EB7A71F38B19E00022A47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WODReaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amrap-labs.WODReaderTests";
@@ -396,6 +427,7 @@
 				D65EB7A41F38B19E00022A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D65EB7A51F38B19E00022A47 /* Build configuration list for PBXNativeTarget "WODReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +436,7 @@
 				D65EB7A71F38B19E00022A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
