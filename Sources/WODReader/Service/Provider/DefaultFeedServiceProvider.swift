@@ -10,7 +10,5 @@ import Foundation
 
 internal class DefaultFeedServiceProvider: FeedServiceProvider {
     
-    var serviceType: FeedService.Type {
-        return DefaultFeedService.self
-    }
+    var serviceType: FeedService.Type = DefaultFeedService.self
 }

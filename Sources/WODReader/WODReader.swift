@@ -30,6 +30,7 @@ public class WODReader {
     }
     
     private func initialize(from serviceProvider: FeedServiceProvider) {
+        self.service = serviceProvider.serviceType.init()
     }
     
     // MARK: Feed Management

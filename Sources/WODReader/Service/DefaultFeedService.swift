@@ -10,4 +10,7 @@ import Foundation
 
 internal class DefaultFeedService: FeedService {
     
+    required init() {
+        
+    }
 }

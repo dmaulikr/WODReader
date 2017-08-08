@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal protocol FeedServiceProvider: class {
+internal protocol FeedServiceProvider {
     
     var serviceType: FeedService.Type { get }
 }
